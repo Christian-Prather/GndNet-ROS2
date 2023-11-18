@@ -26,14 +26,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Ros Includes
-import rospy
+import rclpy
 # from tf.transformations import euler_from_quaternion, quaternion_from_euler
 from sensor_msgs.msg import PointCloud2
 import std_msgs.msg
 from visualization_msgs.msg import Marker,MarkerArray
 from geometry_msgs.msg import Point
 
-import ros_numpy
+import ros2_numpy
 import shapely.geometry
 from scipy.spatial import Delaunay
 
